@@ -12,7 +12,7 @@ foreach ($i in $vpn) {
         Write-Host "$name [CONNESSA]" -ForegroundColor Green
     }
     else {
-        Write-Host "$name [DISCONNESSA]" -ForegroundColor Grey
+        Write-Host "$name [DISCONNESSA]" -ForegroundColor Gray
     }
 }
 
